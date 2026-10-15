@@ -1,0 +1,94 @@
+{
+  "results": [
+    {
+      "case": "CONTROL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "ACTOR_MISMATCH",
+      "verdict": "PASS",
+      "reason": "binding_mismatch",
+      "entered": 0,
+      "mutations": 0,
+      "target_unchanged": true
+    },
+    {
+      "case": "IMMUTABLE_SNAPSHOT",
+      "verdict": "PASS"
+    },
+    {
+      "case": "POST_VALIDATION_MUTATION",
+      "verdict": "PASS"
+    },
+    {
+      "case": "REFUSE_DUPLICATE",
+      "verdict": "PASS"
+    },
+    {
+      "case": "FORGED_ISSUANCE",
+      "verdict": "PASS"
+    },
+    {
+      "case": "WITHDRAWN_REUSE",
+      "verdict": "PASS"
+    },
+    {
+      "case": "ACTION_MISMATCH",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SCOPE_MISMATCH",
+      "verdict": "PASS"
+    },
+    {
+      "case": "TARGET_MISMATCH",
+      "verdict": "PASS"
+    },
+    {
+      "case": "ENVIRONMENT_MISMATCH",
+      "verdict": "PASS"
+    },
+    {
+      "case": "CONSEQUENCE_MISMATCH",
+      "verdict": "PASS"
+    },
+    {
+      "case": "FORGED_RECORD",
+      "verdict": "PASS"
+    },
+    {
+      "case": "SUBSTITUTION",
+      "verdict": "PASS"
+    },
+    {
+      "case": "T4",
+      "verdict": "PASS"
+    },
+    {
+      "case": "T5",
+      "verdict": "PASS"
+    },
+    {
+      "case": "T6",
+      "verdict": "PASS"
+    },
+    {
+      "case": "RETRY_AFTER_DENIAL",
+      "verdict": "PASS"
+    },
+    {
+      "case": "UNSAFE_COMPARATOR",
+      "entered": 1,
+      "note": "skips gate; not a gateway result"
+    },
+    {
+      "case": "T7_BYPASS",
+      "entered": 1,
+      "note": "separate documented limitation"
+    }
+  ],
+  "mutation_coverage": "not executed",
+  "pass_count": 18,
+  "fail_count": 0,
+  "issuer_note": "Duplicate-ID substitution is blocked. Fresh-ID issuance still relies on trusted issuer access in this local model."
+}
